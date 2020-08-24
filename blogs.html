@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- JS for loading Medium blogs -->
+    <script src="js/widget.min.js"></script>        
 </head>
 
 <body>
@@ -102,9 +105,7 @@
                 <div class="line"></div>
                 <h2>Medium Blogs</h2>
                 <div id="load" style= "display:block"></div>
-                <div id="medium-widget" style= "display:none"></div>
-                <!-- JS for loading Medium blogs -->
-                <script src="js/widget.js"></script>    
+                <div id="medium-widget" style= "display:none"></div>  
                 <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@djin31","postsPerLine":1,"limit":10,"picture":"small","fields":["description","author","claps","publishAt"],"ratio":"original"}})</script>
             </div>
 
