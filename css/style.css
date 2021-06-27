@@ -272,6 +272,10 @@ h3{
     text-align: left;
 }
 
+#publications small{
+    font-size: 0.8em;
+
+}
 
 /* ---------------------------------------------------
     ABOUT PAGE
